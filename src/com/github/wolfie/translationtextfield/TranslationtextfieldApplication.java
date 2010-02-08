@@ -30,7 +30,7 @@ public class TranslationtextfieldApplication extends Application {
   private TranslatedString getString() {
     return TranslatedString //
         .with(new Locale("fi"), "Terve, maailma") //
-        .and(new Locale("sv"), "Hej, världen") //
+        .and(new Locale("sv"), "Hej, v√§rlden") //
         .and(new Locale("en"), "Hello World") //
         .create();
     
